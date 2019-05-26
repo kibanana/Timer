@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Microsoft.VisualBasic;
 
 namespace Timer
 {
@@ -14,6 +15,11 @@ namespace Timer
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void TxtNum_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
