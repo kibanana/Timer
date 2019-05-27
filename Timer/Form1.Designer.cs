@@ -38,6 +38,7 @@
             // timer1
             // 
             this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
             // txtNum
             // 
@@ -55,6 +56,7 @@
             this.btnCount.TabIndex = 1;
             this.btnCount.Text = "카운트다운";
             this.btnCount.UseVisualStyleBackColor = true;
+            this.btnCount.Click += new System.EventHandler(this.BtnCount_Click);
             // 
             // txtCountDown
             // 
@@ -65,6 +67,7 @@
             this.txtCountDown.Size = new System.Drawing.Size(224, 38);
             this.txtCountDown.TabIndex = 2;
             this.txtCountDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCountDown.TextChanged += new System.EventHandler(this.TxtCountDown_TextChanged);
             // 
             // Form1
             // 
